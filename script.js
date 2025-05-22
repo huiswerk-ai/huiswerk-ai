@@ -4,7 +4,7 @@ async function verstuurVraag() {
   antwoordVak.innerText = "Even nadenken...";
 
   try {
-    const response = await fetch("https://JOUW-RENDER-URL.onrender.com/api/ai", {
+    const response = await fetch("https://huiswerk-ai.onrender.com./api/ai", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
